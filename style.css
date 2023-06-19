@@ -33,7 +33,7 @@
     padding: 4px 4px;
     outline: none;
 }
-img{
+.navbar img{
     height: 25px;
 }
 .navbar ul li select{
@@ -50,8 +50,11 @@ img{
     right: 10px;
     height: 16px;
 }
+.header{
+    display: inline;
+}
 .banner{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     margin-top: 120px;
     margin-left: 50px;
@@ -93,9 +96,7 @@ img{
     margin: 2px;
     border-radius: 10px;
 }
-.header{
-    display: flex;
-}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -133,6 +134,9 @@ img{
     bottom: 50px;
     position: fixed;
     border-radius: 50px;
+}
+.support img{
+    height: 25px;
 }
 .footer{
     width: 92vw;
